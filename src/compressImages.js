@@ -5,12 +5,13 @@ const path = require('path');
 function compressImages(inputPath, outputPath, backupPath) {
     if (!fs.existsSync(backupPath)) {
         if (!fs.existsSync(backupPath)) {
-            console.log(`Directory does not exist, creating: ${backupPath}`);
-            fs.mkdirSync(backupPath, {recursive: true});
+            console.log(`Directory does not exist: ${backupPath}`);
         } else {
             console.log(`Directory already exists: ${backupPath}`);
         }
     }
+
+
 
     // 检查 input 目录是否存在
     if (!fs.existsSync(inputPath)) {
