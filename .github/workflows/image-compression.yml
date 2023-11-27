@@ -20,6 +20,9 @@ jobs:
         with:
           node-version: '16'
 
+      - name: Build Docker image
+        run: docker build -t sImage .
+
       - name: Install dependencies
         run: npm install
 

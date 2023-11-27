@@ -36,29 +36,10 @@ function compressImages(inputPath, outputPath, backupPath) {
                 const inputFile = path.join(inputPath, file);
                 const outputFile = path.join(outputPath, file);
                 const backupFile = path.join(backupPath, file);
-
                 // 移动原始文件到备份目录
                 fs.renameSync(inputFile, backupFile);
-
-
-                // const output = execSync(`npx @squoosh/cli -V`, { encoding: 'utf-8' });
-
-                const output011=  execSync(`squoosh/cli  --webp auto ${backupFile}`);
-                console.log(output011);
-
-                const output01=  execSync(`squoosh/cli  --webp auto ${backupFile} --output-dir ${outputPath}`);
-                console.log(output01);
-
-                const output0=  execSync(`npx @squoosh/cli  auto ${backupFile} --output-dir ${outputPath}`);
-                console.log(output0);
-
-
-                const output1=  execSync(`npx @squoosh/cli --wp2 auto ${backupFile} --output-dir ${outputPath}`);
-
-                console.log(output1);
-                // 使用 Squoosh CLI 压缩图像
-                execSync(`npx @squoosh/cli --webp auto ${backupFile} --output-dir ${outputPath}`);
-
+                // 使用 Docker 运行 Squoosh CLI 压缩图像
+                execSync(`docker run --rm -v ${inputPath}:/input -v ${outputPath}:/output sImage squoosh-cli --webp auto /input/${file} -o /output`);
                 console.log(`Compressed and backed up: ${file}`);
             } catch (error) {
                 console.error(`Failed to process ${file}: ${error.message}`);
