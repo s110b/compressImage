@@ -25,7 +25,7 @@ jobs:
 
       - name: Compress Images
         run: node src/index.js
-        env:
+        with:
           input: 'input'
           output: 'output'
           backup: 'backup'
