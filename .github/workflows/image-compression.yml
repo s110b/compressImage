@@ -26,6 +26,6 @@ jobs:
       - name: Compress Images
         run: node src/index.js
         env:
-          path: './images'
-          output-path: './output'
-          backup-path: './backup'
+          path: 'images'
+          output-path: 'output'
+          backup-path: 'backup'
