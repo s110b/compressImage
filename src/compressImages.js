@@ -4,24 +4,20 @@ const path = require('path');
 
 function compressImages(inputPath, outputPath, backupPath) {
     if (!fs.existsSync(backupPath)) {
-        if (!fs.existsSync(backupPath)) {
-            console.log(`Directory does not exist: ${backupPath}`);
-        } else {
-            console.log(`Directory already exists: ${backupPath}`);
-        }
+        console.log(`backup directory does not exist: ${backupPath}`);
+        return;
     }
-
-
-
+    if (!fs.existsSync(outputPath)) {
+        console.log(`output directory does not exist: ${outputPath}`);
+        return;
+    }
     // 检查 input 目录是否存在
     if (!fs.existsSync(inputPath)) {
         console.log(`Input directory does not exist: ${inputPath}`);
         return;
     }
-
     // 获取目录中的文件列表
     const files = fs.readdirSync(inputPath);
-
     // 检查目录是否为空
     if (files.length === 0) {
         console.log(`Input directory is empty: ${inputPath}`);

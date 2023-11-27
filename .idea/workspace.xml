@@ -216,7 +216,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701049804765</updated>
       <workItem from="1701049806670" duration="1682000" />
-      <workItem from="1701051928523" duration="7694000" />
+      <workItem from="1701051928523" duration="7836000" />
     </task>
     <servers />
   </component>
@@ -225,17 +225,5 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/compressImages.js</url>
-          <line>5</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
