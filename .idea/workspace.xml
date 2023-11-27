@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab0b967e-37aa-4286-8dc0-f9f82079c0d4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/backup/back.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/1665669577.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/back.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compressImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/compressImages.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,6 +135,9 @@
       <recent name="C:\opt\s110\compressImage\images" />
       <recent name="C:\Users\songxiaofeng\WebstormProjects\cimage\input" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\opt\s110\compressImage\input" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.test.js">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -213,7 +219,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701049804765</updated>
       <workItem from="1701049806670" duration="1682000" />
-      <workItem from="1701051928523" duration="3965000" />
+      <workItem from="1701051928523" duration="4734000" />
     </task>
     <servers />
   </component>
