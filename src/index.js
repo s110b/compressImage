@@ -3,9 +3,13 @@ const compressImages = require('./compressImages');
 
 try {
     // 获取输入参数
-    const inputPath = core.getInput('input');
-    const outputPath = core.getInput('output');
-    const backupPath = core.getInput('backup');
+    // const inputPath = core.getInput('input');
+    // const outputPath = core.getInput('output');
+    // const backupPath = core.getInput('backup');
+
+    const inputPath = process.env.INPUT;
+    const outputPath = process.env.OUTPUT;
+    const backupPath = process.env.BACKUP;
 
     console.log(`Input Path: ${inputPath}`);
     console.log(`Output Path: ${outputPath}`);
