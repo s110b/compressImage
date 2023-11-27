@@ -3,17 +3,19 @@ const fs = require('fs');
 const path = require('path');
 
 function compressImages(inputPath, outputPath, backupPath) {
+
+    // 检查 input 目录是否存在
+    if (!fs.existsSync(inputPath)) {
+        console.log(`Input directory does not exist: ${inputPath}`);
+        return;
+    }
+
     if (!fs.existsSync(backupPath)) {
         console.log(`backup directory does not exist: ${backupPath}`);
         return;
     }
     if (!fs.existsSync(outputPath)) {
         console.log(`output directory does not exist: ${outputPath}`);
-        return;
-    }
-    // 检查 input 目录是否存在
-    if (!fs.existsSync(inputPath)) {
-        console.log(`Input directory does not exist: ${inputPath}`);
         return;
     }
     // 获取目录中的文件列表

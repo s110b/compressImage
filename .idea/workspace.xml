@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab0b967e-37aa-4286-8dc0-f9f82079c0d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backup/1665669577.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compressImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/compressImages.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +119,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.17.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.17.4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/input" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backup" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -128,6 +129,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\opt\s110\compressImage\backup" />
       <recent name="C:\opt\s110\compressImage\input" />
       <recent name="C:\opt\s110\compressImage\images" />
       <recent name="C:\Users\songxiaofeng\WebstormProjects\cimage\input" />
@@ -216,7 +218,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701049804765</updated>
       <workItem from="1701049806670" duration="1682000" />
-      <workItem from="1701051928523" duration="7836000" />
+      <workItem from="1701051928523" duration="7983000" />
     </task>
     <servers />
   </component>
