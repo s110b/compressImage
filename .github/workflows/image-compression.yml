@@ -26,6 +26,9 @@ jobs:
       - name: Check Squoosh CLI version
         run: npx @squoosh/cli --version
 
+      - name: Install @squoosh/cli globally
+        run: npm install -g @squoosh/cli@0.7.3
+
       - name: Show installed @squoosh/cli details
         run: npm list @squoosh/cli
 
