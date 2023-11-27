@@ -4,8 +4,12 @@ const path = require('path');
 
 function compressImages(inputPath, outputPath, backupPath) {
     if (!fs.existsSync(backupPath)){
-        fs.mkdirSync(backupPath, { recursive: true });
-    }
+        if (!fs.existsSync(dirPath)) {
+            console.log(`Directory does not exist, creating: ${dirPath}`);
+            fs.mkdirSync(dirPath, { recursive: true });
+        } else {
+            console.log(`Directory already exists: ${dirPath}`);
+        }    }
 
     const supportedFormats = ['.jpg', '.jpeg', '.png', '.webp', '.avif', '.tiff', '.gif'];
 
