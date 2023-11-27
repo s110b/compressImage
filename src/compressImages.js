@@ -41,7 +41,7 @@ function compressImages(inputPath, outputPath, backupPath) {
                 fs.renameSync(inputFile, backupFile);
 
                 // 使用 Squoosh CLI 压缩图像
-                execSync(`npx @squoosh/cli --webp auto  "${backupFile}"  --output-dir "${outputPath}"`);
+                execSync(`npx @squoosh/cli --webp auto  ${backupFile}  --output-dir ${outputPath}`);
 
                 console.log(`Compressed and backed up: ${file}`);
             } catch (error) {

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab0b967e-37aa-4286-8dc0-f9f82079c0d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/image-compression.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/image-compression.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compressImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/compressImages.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +213,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701049804765</updated>
       <workItem from="1701049806670" duration="1682000" />
-      <workItem from="1701051928523" duration="3422000" />
+      <workItem from="1701051928523" duration="3519000" />
     </task>
     <servers />
   </component>
