@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab0b967e-37aa-4286-8dc0-f9f82079c0d4" name="Default Changelist" comment="" />
+    <list default="true" id="ab0b967e-37aa-4286-8dc0-f9f82079c0d4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/image-compression.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/image-compression.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -113,7 +118,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.17.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.17.4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/input" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -123,6 +128,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\opt\s110\compressImage\images" />
       <recent name="C:\Users\songxiaofeng\WebstormProjects\cimage\input" />
     </key>
   </component>
@@ -202,6 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701049804765</updated>
       <workItem from="1701049806670" duration="1682000" />
+      <workItem from="1701051928523" duration="288000" />
     </task>
     <servers />
   </component>
