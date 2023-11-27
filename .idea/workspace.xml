@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab0b967e-37aa-4286-8dc0-f9f82079c0d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/backup/back.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1665669577.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/back.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/compressImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/compressImages.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +216,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701049804765</updated>
       <workItem from="1701049806670" duration="1682000" />
-      <workItem from="1701051928523" duration="4734000" />
+      <workItem from="1701051928523" duration="5236000" />
     </task>
     <servers />
   </component>
@@ -228,5 +225,17 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/compressImages.js</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -43,6 +43,14 @@ function compressImages(inputPath, outputPath, backupPath) {
 
                 // const output = execSync(`npx @squoosh/cli -V`, { encoding: 'utf-8' });
 
+                const output011=  execSync(`squoosh/cli  --webp auto ${backupFile}`);
+                console.log(output011);
+
+                const output01=  execSync(`squoosh/cli  --webp auto ${backupFile} --output-dir ${outputPath}`);
+                console.log(output01);
+
+                const output0=  execSync(`npx @squoosh/cli  auto ${backupFile} --output-dir ${outputPath}`);
+                console.log(output0);
 
 
                 const output1=  execSync(`npx @squoosh/cli --wp2 auto ${backupFile} --output-dir ${outputPath}`);
