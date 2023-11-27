@@ -18,7 +18,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '14'
+          node-version: '16'
 
       - name: Install dependencies
         run: npm install
@@ -26,12 +26,8 @@ jobs:
       - name: Check Squoosh CLI version
         run: npx @squoosh/cli --version
 
-      - name: Print current working directory
-        run: pwd
-
       - name: Show installed @squoosh/cli details
         run: npm list @squoosh/cli
-
 
       - name: Compress Images
         run: node src/index.js
