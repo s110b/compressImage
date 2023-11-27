@@ -35,11 +35,8 @@ function compressImages(inputPath, outputPath, backupPath) {
                 const inputFile = path.join(inputPath, file);
                 const outputFile = path.join(outputPath, file);
                 const backupFile = path.join(backupPath, file);
-                // 移动原始文件到备份目录
-
+                // 移动原始文件到备份目录 只处理一次，防止下次重复处理
                 fs.renameSync(inputFile, backupFile);
-
-
                 // 使用 Docker 运行 Squoosh CLI 压缩图像
                 execSync(`docker run --rm -v ${backupPath}:/input -v ${outputPath}:/output   simage squoosh-cli --webp auto /input/${file} -d /output`);
                 console.log(`Compressed and backed up: ${file}`);

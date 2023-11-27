@@ -41,3 +41,17 @@ jobs:
           INPUT: './input'
           OUTPUT: './output'
           BACKUP: './backup'
+
+      - name: Install tree command
+        run: |
+          if ! command -v tree &> /dev/null
+          then
+              echo "Installing tree..."
+              sudo apt-get update
+              sudo apt-get install tree
+          else
+              echo "Tree is already installed."
+          fi
+
+      - name: Print directory tree
+        run: tree -L 2
