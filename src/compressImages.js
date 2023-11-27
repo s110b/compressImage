@@ -3,13 +3,29 @@ const fs = require('fs');
 const path = require('path');
 
 function compressImages(inputPath, outputPath, backupPath) {
-    if (!fs.existsSync(backupPath)){
+    if (!fs.existsSync(backupPath)) {
         if (!fs.existsSync(backupPath)) {
             console.log(`Directory does not exist, creating: ${backupPath}`);
-            fs.mkdirSync(backupPath, { recursive: true });
+            fs.mkdirSync(backupPath, {recursive: true});
         } else {
             console.log(`Directory already exists: ${backupPath}`);
-        }    }
+        }
+    }
+
+    // 检查 input 目录是否存在
+    if (!fs.existsSync(inputPath)) {
+        console.log(`Input directory does not exist: ${inputPath}`);
+        return;
+    }
+
+    // 获取目录中的文件列表
+    const files = fs.readdirSync(inputPath);
+
+    // 检查目录是否为空
+    if (files.length === 0) {
+        console.log(`Input directory is empty: ${inputPath}`);
+        return;
+    }
 
     const supportedFormats = ['.jpg', '.jpeg', '.png', '.webp', '.avif', '.tiff', '.gif'];
 

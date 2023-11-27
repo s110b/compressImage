@@ -23,6 +23,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Check Squoosh CLI version
+        run: npx @squoosh/cli --version
+
       - name: Print current working directory
         run: pwd
 
