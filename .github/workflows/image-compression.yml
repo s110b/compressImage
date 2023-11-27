@@ -55,3 +55,12 @@ jobs:
 
       - name: Print directory tree
         run: tree -L 2
+
+      - name: Create Zip Archive
+        run: zip -r output.zip output
+
+      - name: Upload Archive
+        uses: actions/upload-artifact@v2
+        with:
+          name: output
+          path: output.zip
