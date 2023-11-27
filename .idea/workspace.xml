@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab0b967e-37aa-4286-8dc0-f9f82079c0d4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="D:/apps/gerrit/feature_config_order/tmp/vis-order-osp-service" value="4548853392461" />
+        <entry key="D:/apps/gerrit/feature_config_order/vis-order-osp-service" value="4544592013863" />
+        <entry key="D:/apps/gerrit/feature_mp_v1.2/vip-vcf" value="4554471171520" />
+        <entry key="D:/apps/gerrit/feature_transportion_inventory/vis-order-osp-service" value="4550366915223" />
+        <entry key="D:/apps/gerrit/feature_vcf_invoice/vip-vcf" value="4553445737692" />
+        <entry key="D:/apps/gerrit/osp-vcf-gateway.api.vip.com" value="4538926344199" />
+        <entry key="D:/apps/gerrit/po-chouyang/vis-order-osp-service" value="4532481913472" />
+        <entry key="D:/apps/gerrit/po_service_get_order/gitlab/vis-order-osp-service" value="4550354280468" />
+        <entry key="D:/apps/gerrit/po_service_get_order/vis-order-osp-service" value="4548003160590" />
+        <entry key="D:/apps/gerrit/refactor/osp-vcf-gateway.api.vip.com" value="4538947578979" />
+        <entry key="D:/apps/gerrit/refactor/tmp/vip-vcf" value="4542813513110" />
+        <entry key="D:/apps/gerrit/refactor/tmp3/vip-vcf" value="4541243380866" />
+        <entry key="D:/apps/gerrit/tianqiang/vis-order-osp-service" value="4541662612169" />
+        <entry key="D:/apps/gerrit/vis-monitor/test/vis-order-osp-monitor" value="4533484126380" />
+        <entry key="D:/apps/gitlab/tmp/src-osp-po-api-vip-com" value="4537474820695" />
+        <entry key="D:/apps/gitmerge/cfgcenter" value="4538205037971" />
+        <entry key="D:/apps/gitmerge/vis-order-osp-monitor" value="4539991873415" />
+        <entry key="D:/mergeCode/vip-vcf" value="4548222709552" />
+        <entry key="D:/mergeCode/vis-order-osp-service" value="4549839655757" />
+        <entry key="D:/tmp/tmp/vip-vcf" value="4543107124039" />
+        <entry key="E:/codegen-target/vip-vcf-gateway" value="4537920880190" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_add_czc_warehouse/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_add_filed/gitlab/osp-vis-promotion-api-vip-com" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_add_filed/osp-vis-promotion-api-vip-com" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_add_filed/tmp/osp-vis-promotion-api-vip-com" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_capacity_expansion_v2/osp-vis-promotion-api-vip-com" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jitX/vis-fs.api.vip.com" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jitX/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jit_ods_lipin/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jit_vip_warehosue/mergeCode/vip-vcf" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jit_vip_warehosue/mergeCode/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jit_vip_warehosue/new/vip-vcf" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jit_vip_warehosue/vip-vcf" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jit_vip_warehosue/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jit_vup_ware/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jit_ware/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jitx_multi_delivery/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jitx_v2/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jitx_v2_bugfix/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jitx_validate/gitlab/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jitx_validate/tmp/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jitx_validate/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_jitx_vendor_docking/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_mp_v2.1/vis-fs.api.vip.com" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_order_overtime/mergeCode/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_order_overtime/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_po_add_ys_flag/mergeCode/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_po_add_ys_flag/mergeCode2/vip-vcf" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_po_add_ys_flag/mergeCode2/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_po_add_ys_flag/vip-vcf" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_po_add_ys_flag/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_return_audit_status/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_vis_ht_restruction/feature_vis_ht_restruction/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_vis_ht_restruction/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_vis_ht_restruction_new/gitlab/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feature_vis_ht_restruction_new/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feture_jitx_v2_add_tinfo/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feture_jitx_v2_new/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feture_jitx_v2_new_1102/tmp/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/feture_jitx_v2_new_1102/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/master/vis-order-osp-monitor" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/master/vis-order-osp-service" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../apps/gerrit/test/vis-fs.api.vip.com" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/bug_fix_time_zone/vis-order-osp-monitor" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/bug_fix_time_zone/vis-order-osp-service" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/feature_mp_pos_no/vip-vcf" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/feature_mp_pos_no/vis-order-osp-service" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/feature_mp_v1.2/tmp/tmp2/vip-vcf" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/feature_mp_v1.2/tmp/vip-vcf" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/feature_mp_v1.2/tmp2/vip-vcf" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/feature_mp_v2.0/20180402/vip-vcf" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/feature_mp_v2.0/mergeCode/vis-order-osp-service" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/feature_mp_v2.0/vip-vcf" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/feature_mp_v2.0/vis-order-osp-service" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/feature_order_statistics/mergecode/vip-vcf" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/feature_order_statistics/vip-vcf" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/feature_transportion_inventory/mergeCode/tmp/vis-order-osp-service" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/feature_transportion_inventory/mergeCode/vis-order-osp-service" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/feature_undelivery_orderDetailQuery/vis-order-osp-service" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/tmp/vis-fs.api.vip.com" value="PREVIEW" />
+        <entry key="D:/apps/gerrit/tmp/vis-order-osp-monitor" value="PREVIEW" />
+        <entry key="F:/apps/gerrit/feature_mp_v2.1/merge20180525/vip-vcf" value="PREVIEW" />
+        <entry key="F:/apps/gerrit/feature_mp_v2.1/mergeCode20180527/vip-vcf" value="PREVIEW" />
+        <entry key="F:/apps/gerrit/feature_mp_v2.1/vip-vcf" value="PREVIEW" />
+        <entry key="F:/apps/gerrit/feature_order_pre_allocation/vis-order-osp-service" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="2YjrPKWrMemAV5xppgmjg2ifi7y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.17.4" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/input" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\songxiaofeng\WebstormProjects\cimage\input" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab0b967e-37aa-4286-8dc0-f9f82079c0d4" name="Default Changelist" comment="" />
+      <created>1701049804765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701049804765</updated>
+      <workItem from="1701049806670" duration="1682000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>
